@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/emad/.config/nvim'
+let g:netrw_dirhist_5='/home/emad/.config/awesome'
+let g:netrw_dirhist_4='/home/emad/Workspace/fans/web'
+let g:netrw_dirhist_3='/home/emad/.config/nvim'
+let g:netrw_dirhist_2='/home/emad/Workspace/fans/web'
+let g:netrw_dirhist_1='/home/emad'
+let g:netrw_dirhist_0='/home/emad/.config/i3'
+let g:netrw_dirhist_9='/home/emad/Workspace/fans/graph'
+let g:netrw_dirhist_8='/home/emad/.config/awesome'
+let g:netrw_dirhist_7='/home/emad/Workspace/fans/graph'
