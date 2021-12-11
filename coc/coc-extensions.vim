@@ -2,7 +2,6 @@ let g:coc_global_extensions = [
   \ 'coc-snippets',
   \ 'coc-actions',
   \ 'coc-sh',
-  \ 'coc-java',
   \ 'coc-lists',
   \ 'coc-emmet',
   \ 'coc-tasks',
@@ -16,7 +15,6 @@ let g:coc_global_extensions = [
   \ 'coc-stylelintplus',
   \ 'coc-emoji',
   \ 'coc-yaml',
-  \ 'coc-pyright',
   \ 'coc-explorer',
   \ 'coc-svg',
   \ 'coc-prettier',
@@ -25,8 +23,5 @@ let g:coc_global_extensions = [
   \ 'coc-json',
   \ 'coc-marketplace',
   \ 'coc-svelte',
-  \ 'coc-python',
-  \ 'coc-pyright',
-  \ 'coc-jedi',
   \ 'coc-rls'
   \ ]
