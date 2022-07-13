@@ -99,3 +99,27 @@ endif
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 
+" TELESCOPE
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+
+" Using Lua functions
+nnoremap <leader>ff <cmd>lua require('telescope.builtin').find_files()<cr>
+nnoremap <leader>fg <cmd>lua require('telescope.builtin').live_grep()<cr>
+nnoremap <leader>fb <cmd>lua require('telescope.builtin').buffers()<cr>
+nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>
+
+" Comment Box
+" left aligned fixed size box with left aligned text
+nnoremap <Leader>bb <Cmd>lua require('comment-box').lbox()<CR>
+vnoremap <Leader>bb <Cmd>lua require('comment-box').lbox()<CR>
+
+" centered adapted box with centered text
+nnoremap <Leader>bc <Cmd>lua require('comment-box').accbox()<CR>
+vnoremap <Leader>bc <Cmd>lua require('comment-box').accbox()<CR>
+
+" centered line
+nnoremap <Leader>bl <Cmd>lua require('comment-box').cline()<CR>
+inoremap <M-l> <Cmd>lua require('comment-box').cline()<CR>

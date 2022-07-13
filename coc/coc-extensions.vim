@@ -11,17 +11,19 @@ let g:coc_global_extensions = [
   \ 'coc-fzf-preview',
   \ 'coc-html',
   \ 'coc-css',
+  \ 'coc-scssmodules',
   \ 'coc-cssmodules',
   \ 'coc-stylelintplus',
   \ 'coc-emoji',
   \ 'coc-yaml',
   \ 'coc-explorer',
   \ 'coc-svg',
-  \ 'coc-prettier',
   \ 'coc-xml',
   \ 'coc-yank',
   \ 'coc-json',
   \ 'coc-marketplace',
   \ 'coc-svelte',
-  \ 'coc-rls'
+	\ 'coc-prettier',
+	\ 'coc-rls',
+	\ 'coc-go'
   \ ]
